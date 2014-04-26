@@ -1,0 +1,9 @@
+{
+  "name": "iframe",
+  "description": "Detect when client is running in an iframe",
+  "homepage": "https://github.com/nmacmunn/meteor-iframe",
+  "author": "Neil MacMunn <neil@macmunn.com> (https://github.com/nmacmunn)",
+  "version": "0.0.1",
+  "git": "https://github.com/nmacmunn/meteor-iframe.git",
+  "packages": {}
+}
