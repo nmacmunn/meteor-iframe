@@ -9,6 +9,6 @@ Package.on_use(function (api, where) {
 });
 
 Package.on_test(function (api) {
-    api.use('iframe');
+    api.use(['iframe', 'tinytest']);
     api.add_files('iframe_tests.js', ['client']);
 });
