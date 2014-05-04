@@ -11,6 +11,8 @@ On the client only:
 iframe();
 ```
 
+As a template helper:
+
 ```html
 {{#unless iframe}}<nav class="navbar">...</nav>{{/unless}}
 ```
