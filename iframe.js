@@ -1,11 +1,13 @@
-iframe = function () {
-    try {
-        return window.self !== window.top;
-    } catch (e) {
-        return true;
-    }
-};
+if (iframe === undefined) {
+    iframe = function () {
+        try {
+            return window.self !== window.top;
+        } catch (e) {
+            return true;
+        }
+    };
 
-UI.registerHelper('iframe', function () {
-    return iframe();
-});
+    UI.registerHelper('iframe', function () {
+        return iframe();
+    });
+}
